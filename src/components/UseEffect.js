@@ -6,7 +6,9 @@ export default function UseEffect() {
   useEffect(() => {
     setcalc(()=> count*2)
   
-    
+    return ()=>{
+      console.log("cleaned up")
+    }
   }, [count])
   
 
