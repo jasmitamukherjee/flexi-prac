@@ -1,4 +1,5 @@
 import './App.css';
+import UseEffect from './components/UseEffect';
 import UseState from './components/UseState';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       Things i did for preparing for exam
     </div>
     <UseState/>
+    <UseEffect/>
     </>
   );
 }
