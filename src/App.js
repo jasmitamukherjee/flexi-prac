@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './components/Form';
 import UseContext from './components/UseContext';
 import UseEffect from './components/UseEffect';
 import UseState from './components/UseState';
@@ -15,7 +16,8 @@ function App() {
     </div>
     <UseState/>
     <UseEffect/>
-    <UseContext name="jas"/>
+    <Form/>
+  
     
     
     </UserContext.Provider>
